@@ -1,0 +1,31 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.3-Prizren">
+  <identifier>https://services2.arcgis.com/1Fxe4R6CAhTAH1eD/arcgis/rest/services/DemographicCharacteristics/FeatureServer/1</identifier>
+  <parentidentifier></parentidentifier>
+  <language></language>
+  <type>dataset</type>
+  <title>DmgrphChar_county</title>
+  <abstract></abstract>
+  <links>
+    <link mimeType="" name="Source" description="" format="" url="https://services2.arcgis.com/1Fxe4R6CAhTAH1eD/arcgis/rest/services/DemographicCharacteristics/FeatureServer/1" type="WWW:LINK" size=""/>
+  </links>
+  <dates/>
+  <fees></fees>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["NAD83 / Texas State Mapping System",BASEGEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4269]],CONVERSION["Texas State Mapping System (meter)",METHOD["Lambert Conic Conformal (2SP)",ID["EPSG",9802]],PARAMETER["Latitude of false origin",31.1666666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8821]],PARAMETER["Longitude of false origin",-100,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8822]],PARAMETER["Latitude of 1st standard parallel",27.4166666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8823]],PARAMETER["Latitude of 2nd standard parallel",34.9166666666667,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8824]],PARAMETER["Easting at false origin",1000000,LENGTHUNIT["metre",1],ID["EPSG",8826]],PARAMETER["Northing at false origin",1000000,LENGTHUNIT["metre",1],ID["EPSG",8827]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["State-wide spatial data management."],AREA["United States (USA) - Texas."],BBOX[25.83,-106.66,36.5,-93.5]],ID["EPSG",3081]]</wkt>
+      <proj4>+proj=lcc +lat_0=31.1666666666667 +lon_0=-100 +lat_1=27.4166666666667 +lat_2=34.9166666666667 +x_0=1000000 +y_0=1000000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>1044</srsid>
+      <srid>3081</srid>
+      <authid>EPSG:3081</authid>
+      <description>NAD83 / Texas State Mapping System</description>
+      <projectionacronym>lcc</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial crs="EPSG:3081" minz="nan" dimensions="2" miny="413672.26590000465512276" maxx="1618145.94520000368356705" maxz="nan" maxy="1593958.6729000024497509" minx="373137.19310000538825989"/>
+  </extent>
+</qgis>
